@@ -1,23 +1,29 @@
 /* IMPOSTAZIONI GENERALI */
 body {
   height: 100vh;
-  background-image: url(sfondo.png);
-  margin: 0;
-  width: 550px;
-  max-width: 390px;
+  background-image: url("../img/sfondo.png");
+  width: 100%;
+  margin: 0 auto;
 }
 /* HEADER */
-
+.container {
+  width: 300px;
+  margin: 0 auto;
+}
+html {
+  margin: 0 auto;
+  width: auto;
+  align-items: center;
+}
 #header {
   background-color: rgba(18, 130, 161, 0.988);
-  margin: 25px;
-  height: 350px;
+  margin-top: 25px;
+  height: 300px;
   box-sizing: content-box;
-  text-align: center;
   font-size: 1em;
   color: white;
   font-weight: bold;
-  max-width: 350px;
+  text-align: center;
 }
 header img {
   height: 150px;
@@ -37,34 +43,32 @@ header img {
 }
 /* MAIN */
 #main {
-  margin: 25px;
-  height: 350px;
-  box-sizing: content-box;
-  align-self: center;
   background-color: aliceblue;
-  height: 100vh;
+  height: 100%;
   font-size: 1.3em;
-  padding-left: 15px;
-  box-sizing: content-box;
 }
 #main h1 {
   font-size: 1.5em;
   font-weight: bold;
   margin-bottom: 20px;
   padding-top: 1em;
+  margin-left: 12%;
 }
 .parag1 {
   margin-bottom: 20px;
   color: rgba(128, 128, 128, 0.562);
+  margin-left: 8%;
 }
 ol,
 ul {
   padding-left: 25px;
   align-self: center;
+  margin-left: 8%;
 }
 .parag2 {
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: 8%;
 }
 span {
   color: rgb(145, 14, 138);
