@@ -1,0 +1,80 @@
+/* IMPOSTAZIONI GENERALI */
+body {
+  height: 100vh;
+  background-image: url(sfondo.png);
+  margin: 0;
+  width: 550px;
+  max-width: 390px;
+}
+/* HEADER */
+
+#header {
+  background-color: rgba(18, 130, 161, 0.988);
+  margin: 25px;
+  height: 350px;
+  box-sizing: content-box;
+  text-align: center;
+  font-size: 1em;
+  color: white;
+  font-weight: bold;
+  max-width: 350px;
+}
+header img {
+  height: 150px;
+  width: 300px;
+  margin-top: 0;
+}
+
+#header a {
+  text-decoration: none;
+  color: white;
+}
+#header h1 {
+  padding-bottom: 2.5em;
+}
+#header p {
+  padding-top: 0.5em;
+}
+/* MAIN */
+#main {
+  margin: 25px;
+  height: 350px;
+  box-sizing: content-box;
+  align-self: center;
+  background-color: aliceblue;
+  height: 100vh;
+  font-size: 1.3em;
+  padding-left: 15px;
+  box-sizing: content-box;
+}
+#main h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-top: 1em;
+}
+.parag1 {
+  margin-bottom: 20px;
+  color: rgba(128, 128, 128, 0.562);
+}
+ol,
+ul {
+  padding-left: 25px;
+  align-self: center;
+}
+.parag2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+span {
+  color: rgb(145, 14, 138);
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
